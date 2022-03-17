@@ -1,0 +1,29 @@
+HTTP: HyperText Transfer Protocol
+
+HTTP is normally used by computers and servers to request and send information. For eg, when we visit some particular website, that website sends a request to its own server to retrive the information about the page that need to be loaded
+
+HTTP 1.1:
+
+When a web page loads, all its content will load one by one based on the priority like web contents to load first, images to load second and videos to load after that. In such case, in HTTP 1.1 if one of the resource is blocked due to some error then the remaining resoruces of the web page will also not be loaded.
+
+HTTP 2:
+
+In HTTP 2, every resource for a web page is a separate TCP connection and their HTTP requests are different. So even if one of the resource is blocked all the other resources will be loaded independently.
+
+
+Objects in JS:
+
+Objects in JS is simply a collection of data in the format of "key:value" pair. 
+
+Eg.
+
+var bike = {
+	model: 'KTM',
+	version: 2022,
+	color: 'Black',
+	cc: 250
+};
+
+The properties of the bike object can be accessed like below:
+
+console.log(bike.model);
