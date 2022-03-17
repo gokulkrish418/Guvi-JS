@@ -1,0 +1,77 @@
+For Loop:
+
+let num=[0,1,2,3,4,5,6,7,8,9]
+
+for(i=0;i<num.length;i++){
+	console.log("Printed Number is", num[i]);
+}
+
+
+
+JSON FOR Loop:
+
+let countries = ['Asia','Australia','China','Russia','USA']
+
+for(i=0;i<countries.length;i++){
+console.log('Country Name in the list are:', countries[i]);
+}
+
+
+FOR IN Loop:
+
+let person = {
+name: 'Gokul Krish',
+age: 22,
+gender: 'Male',
+};
+
+for(let i in person){
+console.log(i + ":" + person[i])
+}
+
+
+FOR OF Loop:
+
+let num=[0,1,2,3,4,5,6,7,8,9]
+
+for (let i of num){
+console.log(i);
+}
+
+
+FOR EACH Loop:
+
+const numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function(number) {
+    console.log(number);
+});
+
+
+Create your own resume data in JSON format:
+
+
+let resume = {
+firstName:'Gokul',
+lastName:'Krishnan',
+dateOfBirth:'10-05-1999',
+age:22,
+address:{
+doorNumber:'4-85/A',
+area:'Avalpatti',
+city:'Pollachi',
+district:'Coimbatore',
+state:'Tamilnadu',
+country:'India',
+pincode:642205
+},
+educationalQualification: 'BE-ECE',
+tenthMark: '96 Percent',
+twelfthMark: '81 Percent',
+ugMark: '78 Percent',
+yearOfExperience: 1,
+previousCompany: 'Orion Innovation',
+skillSets: 'Java,HTML,Css,Javascript,SQL',
+areaOfInterest: 'Web Development'
+};
+
